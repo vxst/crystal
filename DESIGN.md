@@ -1,11 +1,9 @@
 The Design Of Crystal
-
 =======================
 
 There are three major sub-system of Crystal, for each sub-system, there is several modules, which will all list below.
 
 Subsystem: Oculus
-
 -----------------------
 
 The job of oculus is to see the upstreams. It has the ablity to check and maintaince a database of upstream status, which include:
@@ -27,7 +25,6 @@ Also, the subsystem maintaince some static data of each upstream mirrors, which 
  * Sync method
 
 Subsystem: Speculi
-
 ----------------------
 
 The job of speculi is to maintaince the repos. It is the core part of whole Crystal system, which is divided into two parts, one vilicus and many speculums.
@@ -48,7 +45,6 @@ Speculum represent each repo, it includes following information:
  * Important syncing method and information
 
 Subsystem: Delator
-
 -----------------------
 
 The job of Delator is to report the whole status of the site, which include following information:
@@ -58,3 +54,19 @@ The job of Delator is to report the whole status of the site, which include foll
    Site reachabilty is tested on several servers around the world. For ZJU OSS Mirrors, the test server include two servers inside ZJU Campus, a server in Hangzhou, a server in Japan and a server in United States. Site reachabilty report include connection speed and page checksum test.
  * Site load
   * The Traffic flow of last 24 hrs, last 30 days and last year
+
+
+> Copyright (C) 2014  Shan Ting <vxst@vxst.org>
+> 
+> This program is free software: you can redistribute it and/or modify
+> it under the terms of the GNU General Public License as published by
+> the Free Software Foundation, either version 3 of the License, or
+> (at your option) any later version.
+> 
+> This program is distributed in the hope that it will be useful,
+> but WITHOUT ANY WARRANTY; without even the implied warranty of
+> MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+> GNU General Public License for more details.
+> 
+> You should have received a copy of the GNU General Public License
+> along with this program.  If not, see <http://www.gnu.org/licenses/>.
