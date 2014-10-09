@@ -3,6 +3,8 @@ The Design Of Crystal
 
 There are three major sub-system of Crystal, for each sub-system, there is several modules, which will all list below.
 
+All development will be TDD, I'm trying to reach 100% coverage! (perhaps impossible due to my laziness though
+
 Subsystem: Oculus
 -----------------------
 
