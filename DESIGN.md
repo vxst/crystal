@@ -56,3 +56,5 @@ The job of Delator is to report the whole status of the site, which include foll
  * Freshness for each repo
  * Site reachabilty
    Site reachabilty is tested on several servers around the world. For ZJU OSS Mirrors, the test server include two servers inside ZJU Campus, a server in Hangzhou, a server in Japan and a server in United States. Site reachabilty report include connection speed and page checksum test.
+ * Site load
+  * The Traffic flow of last 24 hrs, last 30 days and last year
